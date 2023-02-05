@@ -30,6 +30,6 @@ export default function mixed(len) {
       }
     }
   }
-  // Oluşan karışık ifadesi döndürülür
+  // Oluşan karışık karakterler döndürülür
   return mixedString;
 }
