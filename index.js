@@ -1,4 +1,4 @@
-function mixed(len) {
+export default function mixed(len) {
   // Karışık dizginin uzunluğu
   let mixedString = "";
   // Büyük harf alfabetleri saklamak için kullanılan değişken
@@ -33,5 +33,3 @@ function mixed(len) {
   // Oluşan karışık dizgi yazdırılır
   return mixedString;
 }
-
-console.log(mixed(10));
